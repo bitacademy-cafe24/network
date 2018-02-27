@@ -7,7 +7,7 @@ public class LocalHost {
 
 	public static void main(String[] args) {
 		try {
-			InetAddress inetAddress = InetAddress.getLocalHost();
+			InetAddress inetAddress = InetAddress. getLocalHost();
 
 			String hostname = inetAddress.getHostName();
 			String hostAddress = inetAddress.getHostAddress();
